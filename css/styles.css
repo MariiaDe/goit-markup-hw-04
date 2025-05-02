@@ -68,12 +68,13 @@ img {
     padding-left: 15px; 
     padding-right: 15px;
     margin: 0 auto;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    
 }
 
 .page-header {
     display: flex;
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -265,7 +266,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #404BBF;
+    background-color: #4D5AE5;
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -273,11 +274,11 @@ span {
 }
 
 .link-team:hover {
-    background-color: #31D0AA;
+    background-color: #404bbf;
 }
 
 .team-items {
-    fill: #FFFFFF;
+    fill: #f4f4fd;
 }
 
 
@@ -331,6 +332,7 @@ span {
     width: calc((100% - 72px) / 4); 
     background-color: #fff;
     border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2,1);
 }
 
