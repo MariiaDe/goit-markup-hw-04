@@ -230,13 +230,17 @@ span {
     margin-bottom: 8px;
 }
 
-.features-items {
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
-    width: 264px;
+.icon-features {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
     height: 112px; 
-    background-color: #F4F4FD;
+    background-color: #f4f4fd;
+    border-radius: 4px; 
+    border: 1px solid #8e8f99; 
+    margin-bottom: 8px; 
 }
+
 
 .page-title {
     font-size: 36px;
